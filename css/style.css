@@ -114,8 +114,40 @@ div {
 
 .third-orange-btn {
   margin-top: 34px;
+  margin-bottom: 90px;
   padding: 15px 32px 15px 34px;
   display: flex;
   position: absolute;
   left: 500px;
+}
+
+.third-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #2f281e;
+}
+
+.small-titles {
+  font-weight: bold;
+  color: #2f281e;
+}
+
+.second-paragraph {
+  max-width: 486px;
+  max-height: 531px;
+  position: relative;
+  left: 145px;
+  top: 146px;
+  padding-right: 104px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #544837;
+}
+
+.man-in-red {
+  position: relative;
+  top: 120px;
+  left: 104px;
 }
