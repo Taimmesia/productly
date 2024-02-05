@@ -1,0 +1,31 @@
+.logo {
+  position: relative;
+  left: 144px;
+}
+
+* {
+  font-family: "Poppins" sans-serif;
+}
+
+.nav-header {
+  list-style: none;
+}
+
+.nav-header li {
+  display: inline-block;
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-size: 44px;
+}
+
+section {
+  display: inline-block;
+}
