@@ -113,8 +113,8 @@ div {
 }
 
 .third-orange-btn {
-  margin-top: 34px;
-  margin-bottom: 90px;
+  margin: auto;
+  position: absolute;
   padding: 15px 32px 15px 34px;
   display: flex;
   position: absolute;
@@ -141,6 +141,7 @@ div {
   left: 145px;
   top: 146px;
   padding-right: 104px;
+  padding-bottom: 101px;
   font-weight: 500;
   font-size: 16px;
   color: #544837;
@@ -150,4 +151,17 @@ div {
   position: relative;
   top: 120px;
   left: 104px;
+}
+
+.man-in-blue {
+  position: relative;
+  top: 101px;
+}
+
+.third-paragraph {
+  max-width: 486px;
+  max-height: 427px;
+  position: relative;
+  top: 150px;
+  left: 100px;
 }
