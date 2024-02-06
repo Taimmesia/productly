@@ -1,14 +1,11 @@
 body {
   background-color: #f2f2f2;
+  font-family: "Poppins" sans-serif;
 }
 
 .logo {
   position: relative;
   left: 144px;
-}
-
-* {
-  font-family: "Poppins" sans-serif;
 }
 
 .nav-header li {
@@ -57,6 +54,7 @@ a:hover {
   background-color: #ff9900;
   color: #ffffff;
 }
+
 .icon {
   color: #ff9900;
   margin-left: 30px;
@@ -85,14 +83,19 @@ section {
   display: inline-block;
 }
 
-.second-heading {
+.sub-heading {
   min-width: 539px;
   height: 108px;
-  margin-top: 110px;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #2f281e;
+}
+
+.sub {
   display: flex;
   justify-content: center;
-  font-weight: bold;
-  font-size: 36px;
 }
 
 div {
@@ -121,20 +124,12 @@ div {
   left: 500px;
 }
 
-.third-heading {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: auto;
-  letter-spacing: 0px;
-  color: #2f281e;
-}
-
 .small-titles {
   font-weight: bold;
   color: #2f281e;
 }
 
-.second-paragraph {
+.sub-paragraph {
   max-width: 486px;
   max-height: 531px;
   position: relative;
@@ -147,21 +142,13 @@ div {
   color: #544837;
 }
 
-.man-in-red {
+.man-img {
   position: relative;
-  top: 120px;
+  top: 200px;
   left: 104px;
 }
 
 .man-in-blue {
   position: relative;
   top: 101px;
-}
-
-.third-paragraph {
-  max-width: 486px;
-  max-height: 427px;
-  position: relative;
-  top: 150px;
-  left: 100px;
 }
