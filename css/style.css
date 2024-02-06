@@ -1,5 +1,5 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #f5f3f3;
   font-family: "Poppins" sans-serif;
 }
 
@@ -21,6 +21,7 @@ header {
 
 a {
   text-decoration: none;
+  color: #2f281e;
 }
 
 a:hover {
@@ -44,6 +45,16 @@ a:hover {
   color: #173a56;
 }
 
+.main-heading {
+  width: 502px;
+  height: 108px;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 0px;
+  color: #2f281e;
+}
+
 .orange-btn2 {
   min-width: 175px;
   min-height: 53px;
@@ -60,16 +71,6 @@ a:hover {
   margin-left: 30px;
 }
 
-.main-heading {
-  width: 502px;
-  height: 108px;
-  font-weight: bold;
-  font-size: 44px;
-  line-height: 54px;
-  letter-spacing: 0px;
-  color: #2f281e;
-}
-
 .first-paragraph {
   width: 458px;
   height: 95px;
@@ -77,6 +78,11 @@ a:hover {
   line-height: 28px;
   letter-spacing: 0px;
   color: #544837;
+}
+
+.main {
+  position: relative;
+  left: 145px;
 }
 
 section {
@@ -151,4 +157,31 @@ div {
 .man-in-blue {
   position: relative;
   top: 101px;
+}
+
+.logo-footer {
+  position: absolute;
+  right: 126px;
+  padding-left: 0;
+}
+
+.footer-container {
+  width: 1109px;
+  height: 308px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 250px;
+  left: 0px;
+}
+
+.footer-content li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 126px;
+}
+
+.input-field {
+  position: relative;
+  top: 30px;
 }
